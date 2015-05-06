@@ -1,7 +1,17 @@
 # Site settings
-title: Solo, a Jekyll Theme
-tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+title: Federico ramallo, Team leader, Senior developer and mentor 
+tag_text: Federico ramallo, Team leader, Senior Developer and Mentor 
+description: Federico ramallo, Team leader, Senior Developer and Mentor. 
+plus_url: https://plus.google.com/+FedericoRamalloDev/?rel=author
+og_title: Federico ramallo, Team leader, Senior developer and mentor 
+og_type: profile
+og_image: http://framallo.com/me.jpg
+og_url: http://framallo.com
+og_description: Federico ramallo, Team leader, Senior Developer and Mentor 
+fb_admins: 1033137836
+fb_profile_id: 1033137836
+
+
 
 # Build settings
 markdown: kramdown
