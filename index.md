@@ -16,7 +16,7 @@ I am Federico Ramallo a Web developer turned CTO at [Tangosource](http://tangoso
 
 ## Web developer
 
-<iframe src="https://ghbtns.com/github-btn.html?user=framallo&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+<a class="github-button" href="https://github.com/framallo" data-style="mega" data-count-href="/framallo/followers" data-count-api="/users/framallo#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @framallo on GitHub">Follow @framallo</a>
 
 I have 8+ years of experience in Rails and a couple of repositories on [Github](https://github.com/framallo)
 
