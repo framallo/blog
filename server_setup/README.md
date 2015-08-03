@@ -29,7 +29,10 @@ I won't need to do it for a long time, but if I have to I would rather have deta
     git clone https://github.com/framallo/blog.git
     cd blog
     sudo cp -f server_setup/nginx.conf /etc/nginx/sites-available/default
-    ln -s server_setup/post-receive .git/hooks/
+    
+    # setup git hook
+    ln -s ../../server_setup/post-receive .git/hooks/
+    git config receive.denyCurrentBranch ignore
 
     sudo service nginx restart
 
