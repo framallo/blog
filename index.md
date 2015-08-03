@@ -12,7 +12,8 @@ I am Federico Ramallo a Web developer turned CTO at [Tangosource](http://tangoso
 
 ## Presentations
 
-* [Couch DB a NoSQL database](http://www.slideshare.net/rubycslides/couchdb-a-nosql-database)
+* [Going Pro - 2015](https://docs.google.com/presentation/d/1VJPXj6UPEsszSQVB7UnB5oAyN1mWLJ6nsrIM8rzs644/edit?usp=sharing)
+* [Couch DB a NoSQL database - 2011](http://www.slideshare.net/rubycslides/couchdb-a-nosql-database)
 
 ## Web developer
 
