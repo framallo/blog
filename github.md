@@ -2,10 +2,14 @@
 layout: default
 ---
 
+## Github profile
+
+I have a lot of private repositories and applications I worked over the years. But also I have some open source contributions. I'll try to summarise my open source code. But feel free to explore my [Github profile](https://github.com/framallo).
+
 ## Ruby and Rails
 
 * [framallo/bernard](https://github.com/framallo/bernard) is a personal finance application. I wrote it without tests, so now I'm comming back and writing the tests of the application. 
-* [framallo/nomster](https://github.com/framallo/nomster) This is a project assignment from [The firehose project](http://www.thefirehoseproject.com/) where I am a Mentor.
+* [framallo/nomster](https://github.com/framallo/nomster) I am a mentor at [The firehose project](http://www.thefirehoseproject.com/) and this is a project assignmen
 * [framallo/geocoder_cli](https://github.com/framallo/geocoder_cli) I want to save addresses on my garmin gps. So I created this tool to get the gps latitude and longitude of an address.
 * [framallo/torquebox](https://github.com/framallo/torquebox) I forked this project because I deployed a production application with Jruby. I wanted to use torquebox features but we couldn't implement torquebox queues so we had to move back to MRI ruby. I realized at that moment that MRI ruby was faster. This was back in 2012, probably things changed a lot.
 * [framallo/excedent](https://github.com/framallo/excedent) is an application I build back in 2011 during a startup weekend
@@ -39,4 +43,3 @@ I used docker to install [Tangosource](http://tangosource.com) as a multi tenanc
 * [framallo/Vim-for-Rails](https://github.com/framallo/Vim-for-Rails) I tried emacs and other editors, but I prefer Vim. I should refactor it and change some plugins
 
 
-You can check my [Github profile](https://github.com/framallo).
