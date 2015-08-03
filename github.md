@@ -9,7 +9,7 @@ I have a lot of private repositories and applications I worked over the years. B
 ## Ruby and Rails
 
 * [framallo/bernard](https://github.com/framallo/bernard) is a personal finance application. I wrote it without tests, so now I'm comming back and writing the tests of the application. 
-* [framallo/nomster](https://github.com/framallo/nomster) I am a mentor at [The firehose project](http://www.thefirehoseproject.com/) and this is a project assignmen
+* [framallo/nomster](https://github.com/framallo/nomster) I am a mentor at [The firehose project](http://www.thefirehoseproject.com/) and this is a project assignment
 * [framallo/geocoder_cli](https://github.com/framallo/geocoder_cli) I want to save addresses on my garmin gps. So I created this tool to get the gps latitude and longitude of an address.
 * [framallo/torquebox](https://github.com/framallo/torquebox) I forked this project because I deployed a production application with Jruby. I wanted to use torquebox features but we couldn't implement torquebox queues so we had to move back to MRI ruby. I realized at that moment that MRI ruby was faster. This was back in 2012, probably things changed a lot.
 * [framallo/excedent](https://github.com/framallo/excedent) is an application I build back in 2011 during a startup weekend
