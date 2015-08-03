@@ -5,7 +5,7 @@ desc 'deploy to production'
 task :deploy do
   sh 'jekyll build'
   puts 'deploying to production server'
-  sh 'rsync -aP _site blog:/var/www/'
+  sh 'rsync -aP _site/ blog:/var/www/'
 end
 
 desc 'Clean up generated site'

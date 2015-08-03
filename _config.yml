@@ -16,4 +16,4 @@ fb_profile_id: 1033137836
 # Build settings
 markdown: kramdown
 
-exclude: ["README.md", 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+exclude: ["README.md", 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'server_setup']
