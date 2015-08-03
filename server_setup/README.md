@@ -29,6 +29,7 @@ I won't need to do it for a long time, but if I have to I would rather have deta
     git clone https://github.com/framallo/blog.git
     cd blog
     sudo cp -f server_setup/nginx.conf /etc/nginx/sites-available/default
+    ln -s server_setup/post-receive .git/hooks/
 
     sudo service nginx restart
 
@@ -55,8 +56,16 @@ I changed the ssh config file to run a shortcut. This is how `~/.ssh/config` loo
       HostName       <server host name>
       IdentityFile   <private key from aws>
 
+# setup production server
+
+You need to setup a remote repository called production
+
+    git remote add production blog:blog
+
 # Production Deploy
 
-You can deploy with this command
+Then, you can deploy with a git push command
 
-    rake deploy
+    git push production master
+
+    
