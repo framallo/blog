@@ -1,12 +1,7 @@
+require 'dotenv'
+Dotenv.load
 
 task :default => :deploy
-
-desc 'deploy to production'
-task :deploy do
-  sh 'jekyll build'
-  puts 'deploying to production server'
-  sh 'rsync -aP _site/ blog:/var/www/'
-end
 
 desc 'Clean up generated site'
 task :clean do
@@ -14,6 +9,18 @@ task :clean do
 end
 
 desc 'Buil up generated site'
-task :Build do
+task :build do
   sh 'jekyll build'
+end
+
+namespace :production do
+
+  desc 'deploy to production'
+  task :deploy => [:build, :sync, :clean] do
+  end
+
+  task :sync do
+    puts 'syncing files'
+    sh 'rsync -aP --delete-after --remove-source-files _site/ /var/www'
+  end
 end
