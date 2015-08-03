@@ -151,3 +151,8 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.domain::before {
+  content: "\0040";    /* Unicode character for @ symbol */
+}
+ 

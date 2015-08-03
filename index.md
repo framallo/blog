@@ -23,7 +23,15 @@ I have 8+ years of experience in Rails and a couple of repositories on [Github](
 
 ## Connect with me
 
-I would love to hear from you, so you should contact me ([email](mailto:framallo@gmail.com)/[Twitter](http://twitter.com/framallo)/[Github](https://github.com/framallo)/[Facebook](https://www.facebook.com/federico.ramallo.94)/[Linkedin](https://mx.linkedin.com/in/framallo))
+
+I would love to hear from you, so you should contact me on the web
+
+* [Twitter](http://twitter.com/framallo)
+* [Github](https://github.com/framallo)
+* [Facebook](https://www.facebook.com/federico.ramallo.94)
+* [Linkedin](https://mx.linkedin.com/in/framallo)
+
+{% include email.html %}
 
 {% include newsletter_signup.html %}
 
