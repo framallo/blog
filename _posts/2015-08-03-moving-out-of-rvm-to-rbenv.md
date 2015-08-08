@@ -3,8 +3,6 @@ layout: post
 totle: Moving from rvm to rbenv
 ---
 
-# Moving from rvm to rbenv
-
 I am setting up this [blog](http://framallo.com) and I am setting up an aws instance. You can check my setup [here](https://github.com/framallo/blog/tree/gh-pages/server_setup)
 
 But turns out that rvm instalation is broken. It happens from time to time.  I used to use a workaround and I can't find it right now. This is the error I've got:
@@ -65,3 +63,5 @@ Turns out that the bundler gem was still installed with `ruby2.0` ubuntu package
     sudo apt-get install ruby2.0
     sudo gem2.0 uninstall bundler
     sudo apt-get purge ruby2.0
+
+
