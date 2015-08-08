@@ -3,3 +3,7 @@
   text-align: right;
   font-size: 15px;
 }
+.domain::before {
+  content: "\0040";    /* Unicode character for @ symbol */
+}
+

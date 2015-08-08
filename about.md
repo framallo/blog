@@ -60,7 +60,7 @@ I would love to hear from you, so you should contact me on the web
 * [Linkedin](https://mx.linkedin.com/in/framallo)
 * [CV](/CCVVFedericoRamallo.pdf)
 
-{ include email.html }
+{% include email.html %}
 
 ## About me
 
