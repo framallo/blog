@@ -1,0 +1,10 @@
+#! /bin/bash
+source ~/.profile
+
+cd ..
+GIT_DIR=$(pwd)
+
+
+env -i git reset --hard
+
+rake deploy
