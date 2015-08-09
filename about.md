@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+![Federico](/images/about/me.jpg)
+
 I have experience on three areas
 
 * Software development
@@ -66,4 +68,3 @@ I would love to hear from you, so you should contact me on the web
 
 I was born in Buenos Aires, Argentina. In 2009 I moved to mexico and got married in 2012.
 
-![Federico](/images/about/me.jpg)
