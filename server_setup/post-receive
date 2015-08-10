@@ -3,8 +3,9 @@ source ~/.profile
 
 cd ..
 GIT_DIR=$(pwd)
+APP_ENV=`basename "$PWD"`
 
 
 env -i git reset --hard
 
-rake deploy
+rake $APP_ENV:deploy

@@ -23,7 +23,7 @@ namespace :production do
 
   task :sync do
     puts 'syncing files'
-    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www'
+    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www/production'
   end
 
   desc 'Clean up generated site'
@@ -32,6 +32,30 @@ namespace :production do
   end
 
 end
+
+namespace :staging do
+
+  desc 'build and deploy in production'
+  task :deploy => [:build, :sync, :clean] do
+  end
+
+  desc 'Build up generated site'
+  task :build do
+    sh 'jekyll build --config _config.yml,_config_staging.yml'
+  end
+
+  task :sync do
+    puts 'syncing files'
+    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www/staging'
+  end
+
+  desc 'Clean up generated site'
+  task :clean do
+    sh 'rm -rf _site'
+  end
+
+end
+
 
 namespace :rsync do
 

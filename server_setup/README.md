@@ -7,17 +7,17 @@ I changed the ssh config file to run a shortcut. This is how `~/.ssh/config` loo
       HostName       <server host name>
       IdentityFile   <private key from aws>
 
-# setup production server
+# setup production
 
-You need to setup a remote repository called production
+You need to setup a git remote repository called production
 
-    git remote add production blog:blog
-
-# Production Deploy
+    git remote add production blog:production
 
 Then, you can deploy with a git push command
 
     git push production master
+
+# setup staging
 
 # Setting up the server
 
@@ -42,13 +42,20 @@ I won't need to do it for a long time, but if I have to I would rather have deta
     sudo apt-get update
     sudo apt-get install nginx
 
-    sudo mkdir /var/www/
-    sudo chown ubuntu:www-data /var/www
+    sudo mkdir /var/www/production
+    sudo mkdir /var/www/staging
+    sudo chown -R ubuntu:www-data /var/www
     sudo chmod 755 /var/www
 
-    # setup blog
-    git clone https://github.com/framallo/blog.git
-    cd blog
+    # setup staging blog
+    git clone https://github.com/framallo/blog.git staging
+    cd staging
+
+    # setup production blog
+    git clone https://github.com/framallo/blog.git production
+    cd production
+
+    # setup nging config file
     sudo cp -f server_setup/nginx.conf /etc/nginx/sites-available/default
     
     # setup git hook
