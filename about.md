@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![Federico](/images/about/me.jpg)
+![Federico]({{ site.baseurl }}/images/about/me.jpg)
 <div class="image-attribution" >Image by <a href="http://framallo.com">Me</a></div>
 
 I have experience on three areas
@@ -14,7 +14,7 @@ I have experience on three areas
 
 ## Software development
 
-![keyboard](/images/about/laptop.jpg)
+![keyboard]({{ site.baseurl }}/images/about/laptop.jpg)
 <div class="image-attribution" >Image by <a href="http://framallo.com">Me</a></div>
 
 I work with Ruby on Rails since 2006 and Javascript since 2001.
@@ -34,7 +34,7 @@ This are some of the things I've done:
 
 ## Process & Metrics
 
-![process](/images/about/process.jpg)
+![process]({{ site.baseurl }}/images/about/process.jpg)
 <div class='image-attribution'>Image by <a href="https://unsplash.com/eutahm">Eutah Mizushima</a></div>
 
 I certified as a Scrum Master in 2011 and I implemented Scrum on teams of 5 or 6 developers.
@@ -42,7 +42,7 @@ Then, I focused on Building processes and goals as CTO at [Tangosource](http://t
 
 ## Mentoring & Coaching
 
-![coach](/images/about/coach.jpg)
+![coach]({{ site.baseurl }}/images/about/coach.jpg)
 <div class='image-attribution'>Image by <a href="https://www.flickr.com/photos/euthman/2107125973/in/photolist-4dcz9a-6ivnna-aCwnDD-eZHGbW-doxRCn-na6m2d-6MbfLu-aTVAXP-bqN1qd-d6Ah6d-a9mhJF-e2ULrB-6h5YUA-7hoFty-dt3oHM-aiCyfP-5Ebszw-9S6H4X-jvtjwS-dZfcct-7VNaV8-tLrNhv-ksCTJ4-6Ri3rk-dUa2wb-7N8P2k-5HoH4U-dY5T8G-9FaxGH-5HoH6Y-oRUmcV-8i7XHw-dUa2tE-7FMda7-72q9aN-dU4pWk-7JMX8c-bWNB8j-esekx1-eCw3Bh-cvUW9h-4XzFqe-7FHizv-ec7Yff-j4B6PP-doZFLa-79j64X-5PCAG9-6HkGii-fk5LnW">Ed Uthman</a></div>
 
 I trained more than 50 developers from trainees to senior developers.
