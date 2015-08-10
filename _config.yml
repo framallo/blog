@@ -6,8 +6,8 @@ relative_permalinks: true
 
 # Setup
 title:               Federico Ramallo
-tagline:             "Entrepreneur, Full stack developer, and Coach"
-description:         'Federico Ramallo loves solving problems, coding, motorcycles and adventures.'
+tagline:             "Entrepreneur, Full stack developer, and Problem solver"
+description:         'Federico Ramallo can build software and help teams to do it better.'
 url:                 http://framallo.com
 baseurl:             ''
 paginate:            5

@@ -4,6 +4,7 @@ title: About
 ---
 
 ![Federico](/images/about/me.jpg)
+<div class="image-attribution" >Image by <a href="http://framallo.com">Me</a></div>
 
 I have experience on three areas
 
@@ -13,7 +14,8 @@ I have experience on three areas
 
 ## Software development
 
-![keyboard](/images/about/keyboard.jpg)
+![keyboard](/images/about/laptop.jpg)
+<div class="image-attribution" >Image by <a href="http://framallo.com">Me</a></div>
 
 I work with Ruby on Rails since 2006 and Javascript since 2001.
 I worked on multiple projects for different [clients](/happy_clients/) most of them closed source.
