@@ -19,6 +19,15 @@ Then, you can deploy with a git push command
 
 # setup staging
 
+You need to setup a git remote repository called production
+
+    git remote add staging blog:staging
+
+Then, you can deploy with a git push command
+
+    git push staging master
+
+
 # Setting up the server
 
 I use amazon a t2.micro aws instance
