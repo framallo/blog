@@ -6,4 +6,7 @@
 .domain::before {
   content: "\0040";    /* Unicode character for @ symbol */
 }
+.right {
+  float: right;
+}
 
