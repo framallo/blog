@@ -23,7 +23,7 @@ namespace :production do
 
   task :sync do
     puts 'syncing files'
-    sh 'rsync rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www'
+    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www'
   end
 
   desc 'Clean up generated site'
