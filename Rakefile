@@ -68,6 +68,6 @@ namespace :rsync do
   desc 'build locally, then deploy to production with rsync'
   task :deploy_to_production do
     sh 'jekyll build --config _config.yml'
-    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ blog:/var/www/'
+    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ blog:/var/www/production'
   end
 end
