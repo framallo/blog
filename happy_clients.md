@@ -26,7 +26,7 @@ Trained new team members and leaded the team
 ## [Waypoint Health Innovations](http://waypointhealth.com/), Seattle, WA
 <div class="right" ><img src="{{ site.baseurl }}/images/happy_clients/waypoint.png" alt="waypoint logo"></div>
 
-Waypoint Health Innovations aims to make behavioral health care more accessible, measurable, effective, and cost-efficient by creating digital programs that emulate best practices from cognitive behavior therapy (CBT). 
+Waypoint Health Innovations aims to make behavioral health care more accessible, measurable, effective, and cost-efficient by creating digital programs that emulate best practices from cognitive behavior therapy (CBT).
 
 We inherited the applications ecosystem, maintained it and improved it.
 
@@ -59,15 +59,21 @@ We used Ruby on Rails 3, Backbone.js, and then we moved to AngularJS.
 Leaded both frontend and backend team.
 
 ## [Inkd](http://inkd.com/), Seattle, WA
+
 ## [The Best Question Ever](http://www.tbqe.io/), Seattle, WA
 
 ![tbqe_screenshot]({{ site.baseurl }}/images/happy_clients/tbqe_screenshot.png)
 
 ## [Vittana Foundation](http://www.vittana.org/), Seattle, WA
+
 ## Buzzd, New York, NY
+
 ## Pirelli, Argentina
+
 ## Lloyds Bank, Argentina
+
 ## Shell, Argentina
+
 ## Eurekka, Spain
 
 Eurekka, a Real State Spain web portal. With localization and multibranding. Now defunct
