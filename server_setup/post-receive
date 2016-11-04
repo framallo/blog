@@ -8,4 +8,4 @@ APP_ENV=`basename "$PWD"`
 
 env -i git reset --hard
 
-rake $APP_ENV:deploy
+bundle exec rake $APP_ENV:deploy
