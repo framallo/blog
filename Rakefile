@@ -23,7 +23,7 @@ namespace :production do
 
   task :sync do
     puts 'syncing files'
-    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www/production'
+    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www/framallo.com'
   end
 
   desc 'Clean up generated site'
@@ -46,7 +46,7 @@ namespace :staging do
 
   task :sync do
     puts 'syncing files'
-    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www/staging'
+    sh 'rsync -aP --fuzzy -z --checksum --itemize-changes _site/ /var/www/staging.framallo.com'
   end
 
   desc 'Clean up generated site'
